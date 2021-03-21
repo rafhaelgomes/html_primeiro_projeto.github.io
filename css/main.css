@@ -46,6 +46,17 @@ position:relative;
     display: inline-block;
     color: #8b8b8b;
     margin-left: 15px;
+    height: 40px;
+}
+
+.menu ul li:hover{
+    
+    border-bottom: 2px solid #00bac6;
+}
+
+.menu ul li a:hover{
+    color: #00bac6;
+    
 }
 .menu ul li a{
 
