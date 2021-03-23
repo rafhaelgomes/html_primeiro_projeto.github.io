@@ -20,15 +20,17 @@ position:relative;
 }
 
 .redes-sociais ul li{
-    margin-left: 10px;
+    margin-left: 15px;
     display: inline-block;
     list-style: none;
 }
 .redes-sociais{
-    width: 1246px;
+    width: 100%;
     float: right;
     padding: 0px;
-    margin-right: -275px;
+    margin-right: -945px;
+    width:  100%;
+
 }
 
 .header-2{
@@ -92,4 +94,47 @@ position:relative;
     float: left;
     position: relative;
 
+}
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    height: 51px;
+    width: 25px;
+    z-index: 9;
+    background-color:transparent;
+    position: absolute;
+    background-image: url('../img/arrow_left.png');
+    top: 35%;
+    left: 10%;
+}
+button.slick-next{
+
+    font-size: 0px;
+    border: none;
+    height: 51px;
+    width: 25px;
+    z-index: 9;
+    background-color:transparent;
+    position: absolute;
+    background-image: url('../img/arrow_rig.png');
+    top: 35%;
+    right: 10%;
+    
+
+
+}
+.slide-principal{
+    width: 100%!important;
+}
+ul.slick-dots li  {
+    display: inline-block;
+    font-size:0px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    
+}
+ul.slick-dots li.slick-active {
+    background-color: turquoise;
 }
