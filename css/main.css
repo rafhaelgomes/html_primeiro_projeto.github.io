@@ -138,3 +138,9 @@ ul.slick-dots li  {
 ul.slick-dots li.slick-active {
     background-color: turquoise;
 }
+.slick-list{
+    width: 100%!important;
+}
+.slick-initialized{
+    overflow: hidden;
+}
