@@ -23,13 +23,13 @@ position:relative;
     margin-left: 15px;
     display: inline-block;
     list-style: none;
+    float: right;
+    padding: 10px;
+    
 }
 .redes-sociais{
     width: 100%;
-    float: right;
-    padding: 0px;
-    margin-right: -945px;
-    width:  100%;
+   
 
 }
 
@@ -39,11 +39,13 @@ position:relative;
    margin: 0 auto;
    padding: 20px;
 }
+
 .menu-urls{
    
     height: 80px;
     border-bottom: 3px solid #efefef;
 }
+
 .menu ul li{
     display: inline-block;
     color: #8b8b8b;
@@ -60,6 +62,7 @@ position:relative;
     color: #00bac6;
     
 }
+
 .menu ul li a{
 
     color: #8b8b8b;
@@ -68,16 +71,19 @@ position:relative;
     text-transform: uppercase;
     
 }
+
 .menu{
     width: 70%;
     float: left;
 }
+
 .busca{
    text-align: center;
     width: 30%;
     float: right;
 
 }
+
 .busca input{
     height: 36px;
     margin-top: 5px;
@@ -95,6 +101,7 @@ position:relative;
     position: relative;
 
 }
+
 button.slick-prev{
     font-size: 0px;
     border: none;
@@ -107,6 +114,7 @@ button.slick-prev{
     top: 35%;
     left: 10%;
 }
+
 button.slick-next{
 
     font-size: 0px;
@@ -120,27 +128,37 @@ button.slick-next{
     top: 35%;
     right: 10%;
     
+}
 
 
-}
-.slide-principal{
-    width: 100%!important;
-}
-ul.slick-dots li  {
-    display: inline-block;
-    font-size:0px;
-    border: 3px solid #ffffff;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    
-}
-ul.slick-dots li.slick-active {
-    background-color: turquoise;
-}
 .slick-list{
     width: 100%!important;
 }
 .slick-initialized{
     overflow: hidden;
+}
+.slick-dots li button{
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top:600px;
+    
+}
+.slick-dots li{
+    padding: 5px;
+    display: inline-block;
+}
+li.slick-active button{
+    background: #00bac6;
 }
